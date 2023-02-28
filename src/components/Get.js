@@ -19,8 +19,8 @@ e.preventDefault()
 <input type='text' placeholder='Ubicacion' id='buscador' onChange={handle}
 value={inp}
 />
-<input type= 'submit' value='send'/>
-<img src='img/nb.png'/>
+<img src='nb.png'/>
+<input type= 'submit' value='buscar' className='btn'/>
 </form>
 
 </div>

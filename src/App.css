@@ -1,21 +1,41 @@
 body{
   display: flex;
   justify-content: center;
-  background-color: #08b395;
 }
 .card{
 
   width: 400px;
   height: 700px;
   border-radius: 30px;
-  background-color: #ff2100;
+  background-color: #205af9;
+  opacity: 70%;
   padding: 9px;
+  margin: 40px;
 }
 #buscador{
 
   width: 40%;
   border-radius: 3px;
-  background-color: aqua;
+  background-color: #333a4d;
   height: 30px;
   opacity: 90%;
+}
+.btn{
+
+  margin: 35px;
+  height: 50px;
+  width: 100%;
+  margin: 9px;
+  opacity: 100%;
+  transition: all,0.3s;
+}
+img{
+
+  width: 100px;
+}
+.btn:hover{
+
+  background-color: #202010;
+  border-radius: 9px;
+  color: #ffa100;
 }
